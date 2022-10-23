@@ -1,0 +1,238 @@
+/* root */
+/* add colors variabels*/
+
+
+* {  
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: rgb(29, 38, 70);
+  width: 100%;
+  
+}
+
+html {
+  box-sizing: border-box;
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-family: monospace, sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+  background-color: rgb(29, 38, 70);
+  color: blanchedalmond;
+}
+
+h1,
+h2 {
+  text-align: center;
+ 
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 0.7rem 1rem 0.2rem rgb(27, 26, 26);
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-shadow: 0.2rem 1rem 0.4rem rgb(27, 26, 26);
+}
+
+
+
+
+/* nav bar*/
+
+.nav-list li {
+  padding: 0.5rem;
+  text-shadow: 0.2rem 1rem 0.4rem rgb(27, 26, 26);
+  }
+
+.nav-list li:hover {
+  background-color: rgb(137, 125, 125);
+  display: block;
+}
+
+.nav ul {
+  display: flex;
+   list-style: none;
+   padding: 1rem;
+}
+
+.nav ul a {  
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+
+
+
+/* about section */
+
+.welcome-section {
+background-color: rgb(29, 38, 70);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 100%;
+ padding: 0;
+ height: 75vh;
+}
+
+.welcome-section h1 {
+  margin: 1.5rem;
+}
+
+.welcome-section p {
+  text-align: center;
+  text-shadow: 0.2rem 0.5rem 0.3rem rgb(27, 26, 26);
+  font-size: 2rem;
+}
+
+
+/* redone 23.6*/
+/* .welcome-img {
+  margin-top: 2rem;
+  max-width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: block;
+  align-items: center;
+  width: 20%;
+  rotate: 30deg;
+} */
+
+
+
+/* projects section */
+
+.projects-section {
+  background-color: rgb(29, 38, 70);
+}
+
+.projects-section-header {
+  padding: 5rem 1rem;
+  margin: 5rem;
+}
+
+.projects-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.project-image {
+  border: rgb(223, 220, 197) solid 0.05rem;
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  padding:  0.3rem;
+  margin: 1rem;
+  opacity: 0.5;
+  }
+
+.projects-grid img:hover {
+  opacity: 0.9;
+}
+
+
+.project-title {
+  text-align: center;
+  color: blanchedalmond;
+  padding-top: 0.1rem;
+  padding-bottom: 1.5rem;
+}
+
+.project-title a:link {
+  text-decoration: none;
+}
+
+
+
+
+/* contact section*/
+
+
+
+.contact-section {
+  text-align: center;
+  align-items: stretch;
+  font-size: 2rem;
+  padding: 5rem;
+  margin: 5rem;
+}
+
+.contact-section a {
+  padding: 2rem;
+  
+} 
+
+ /* Contact unvisited link */
+ #contact a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Contact visited link */
+#contact  a:visited {
+  color: black;
+}
+
+/* Contact mouse over link */
+#contact a:hover {
+  color: black;
+}
+
+/* Contact selected link */
+#contact a:active {
+  color: black;
+}
+
+
+/* footer*/
+
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+
+
+
+/* Responsive screen */
+/* large screen */
+
+@media (max-width: 1400px) {
+    html {
+      font-size: 20px;
+    }
+  }
+  
+   /* Tablet screen  */
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 17px;
+    }
+  }
+  
+  /* Mobile screen */
+  
+  @media (max-width: 375px) {
+    html {
+      font-size: 12px;
+    }
+  }
+
+
+
+
+
